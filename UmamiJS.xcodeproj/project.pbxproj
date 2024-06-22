@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD2E4642C27093500E90552 /* UmamiJSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4632C27093500E90552 /* UmamiJSApp.swift */; };
+		3BD2E4662C27093500E90552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4652C27093500E90552 /* ContentView.swift */; };
+		3BD2E4682C27093600E90552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2E4672C27093600E90552 /* Assets.xcassets */; };
+		3BD2E46B2C27093600E90552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2E46A2C27093600E90552 /* Preview Assets.xcassets */; };
+		3BD2E4752C27093600E90552 /* UmamiJSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4742C27093600E90552 /* UmamiJSTests.swift */; };
+		3BD2E47F2C27093600E90552 /* UmamiJSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E47E2C27093600E90552 /* UmamiJSUITests.swift */; };
+		3BD2E4812C27093600E90552 /* UmamiJSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4802C27093600E90552 /* UmamiJSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BD2E4712C27093600E90552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD2E4582C27093500E90552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD2E45F2C27093500E90552;
+			remoteInfo = UmamiJS;
+		};
+		3BD2E47B2C27093600E90552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD2E4582C27093500E90552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD2E45F2C27093500E90552;
+			remoteInfo = UmamiJS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BD2E4602C27093500E90552 /* UmamiJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UmamiJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD2E4632C27093500E90552 /* UmamiJSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiJSApp.swift; sourceTree = "<group>"; };
+		3BD2E4652C27093500E90552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BD2E4672C27093600E90552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BD2E46A2C27093600E90552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BD2E4702C27093600E90552 /* UmamiJSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmamiJSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD2E4742C27093600E90552 /* UmamiJSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiJSTests.swift; sourceTree = "<group>"; };
+		3BD2E47A2C27093600E90552 /* UmamiJSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmamiJSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD2E47E2C27093600E90552 /* UmamiJSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiJSUITests.swift; sourceTree = "<group>"; };
+		3BD2E4802C27093600E90552 /* UmamiJSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiJSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD2E45D2C27093500E90552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2E46D2C27093600E90552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2E4772C27093600E90552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD2E4572C27093500E90552 = {
+			isa = PBXGroup;
+			children = (
+				3BD2E4622C27093500E90552 /* UmamiJS */,
+				3BD2E4732C27093600E90552 /* UmamiJSTests */,
+				3BD2E47D2C27093600E90552 /* UmamiJSUITests */,
+				3BD2E4612C27093500E90552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD2E4612C27093500E90552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2E4602C27093500E90552 /* UmamiJS.app */,
+				3BD2E4702C27093600E90552 /* UmamiJSTests.xctest */,
+				3BD2E47A2C27093600E90552 /* UmamiJSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD2E4622C27093500E90552 /* UmamiJS */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2E4632C27093500E90552 /* UmamiJSApp.swift */,
+				3BD2E4652C27093500E90552 /* ContentView.swift */,
+				3BD2E4672C27093600E90552 /* Assets.xcassets */,
+				3BD2E4692C27093600E90552 /* Preview Content */,
+			);
+			path = UmamiJS;
+			sourceTree = "<group>";
+		};
+		3BD2E4692C27093600E90552 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2E46A2C27093600E90552 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BD2E4732C27093600E90552 /* UmamiJSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2E4742C27093600E90552 /* UmamiJSTests.swift */,
+			);
+			path = UmamiJSTests;
+			sourceTree = "<group>";
+		};
+		3BD2E47D2C27093600E90552 /* UmamiJSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2E47E2C27093600E90552 /* UmamiJSUITests.swift */,
+				3BD2E4802C27093600E90552 /* UmamiJSUITestsLaunchTests.swift */,
+			);
+			path = UmamiJSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD2E45F2C27093500E90552 /* UmamiJS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD2E4842C27093600E90552 /* Build configuration list for PBXNativeTarget "UmamiJS" */;
+			buildPhases = (
+				3BD2E45C2C27093500E90552 /* Sources */,
+				3BD2E45D2C27093500E90552 /* Frameworks */,
+				3BD2E45E2C27093500E90552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UmamiJS;
+			productName = UmamiJS;
+			productReference = 3BD2E4602C27093500E90552 /* UmamiJS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BD2E46F2C27093600E90552 /* UmamiJSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD2E4872C27093600E90552 /* Build configuration list for PBXNativeTarget "UmamiJSTests" */;
+			buildPhases = (
+				3BD2E46C2C27093600E90552 /* Sources */,
+				3BD2E46D2C27093600E90552 /* Frameworks */,
+				3BD2E46E2C27093600E90552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD2E4722C27093600E90552 /* PBXTargetDependency */,
+			);
+			name = UmamiJSTests;
+			productName = UmamiJSTests;
+			productReference = 3BD2E4702C27093600E90552 /* UmamiJSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BD2E4792C27093600E90552 /* UmamiJSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD2E48A2C27093600E90552 /* Build configuration list for PBXNativeTarget "UmamiJSUITests" */;
+			buildPhases = (
+				3BD2E4762C27093600E90552 /* Sources */,
+				3BD2E4772C27093600E90552 /* Frameworks */,
+				3BD2E4782C27093600E90552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD2E47C2C27093600E90552 /* PBXTargetDependency */,
+			);
+			name = UmamiJSUITests;
+			productName = UmamiJSUITests;
+			productReference = 3BD2E47A2C27093600E90552 /* UmamiJSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD2E4582C27093500E90552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3BD2E45F2C27093500E90552 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					3BD2E46F2C27093600E90552 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3BD2E45F2C27093500E90552;
+					};
+					3BD2E4792C27093600E90552 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3BD2E45F2C27093500E90552;
+					};
+				};
+			};
+			buildConfigurationList = 3BD2E45B2C27093500E90552 /* Build configuration list for PBXProject "UmamiJS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD2E4572C27093500E90552;
+			productRefGroup = 3BD2E4612C27093500E90552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD2E45F2C27093500E90552 /* UmamiJS */,
+				3BD2E46F2C27093600E90552 /* UmamiJSTests */,
+				3BD2E4792C27093600E90552 /* UmamiJSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD2E45E2C27093500E90552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2E46B2C27093600E90552 /* Preview Assets.xcassets in Resources */,
+				3BD2E4682C27093600E90552 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2E46E2C27093600E90552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2E4782C27093600E90552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD2E45C2C27093500E90552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2E4662C27093500E90552 /* ContentView.swift in Sources */,
+				3BD2E4642C27093500E90552 /* UmamiJSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2E46C2C27093600E90552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2E4752C27093600E90552 /* UmamiJSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2E4762C27093600E90552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD2E47F2C27093600E90552 /* UmamiJSUITests.swift in Sources */,
+				3BD2E4812C27093600E90552 /* UmamiJSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD2E4722C27093600E90552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD2E45F2C27093500E90552 /* UmamiJS */;
+			targetProxy = 3BD2E4712C27093600E90552 /* PBXContainerItemProxy */;
+		};
+		3BD2E47C2C27093600E90552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD2E45F2C27093500E90552 /* UmamiJS */;
+			targetProxy = 3BD2E47B2C27093600E90552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BD2E4822C27093600E90552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BD2E4832C27093600E90552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD2E4852C27093600E90552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UmamiJS/Preview Content\"";
+				DEVELOPMENT_TEAM = U94SNGSSX7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nerdified.UmamiJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD2E4862C27093600E90552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UmamiJS/Preview Content\"";
+				DEVELOPMENT_TEAM = U94SNGSSX7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nerdified.UmamiJS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BD2E4882C27093600E90552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U94SNGSSX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nerdified.UmamiJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UmamiJS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UmamiJS";
+			};
+			name = Debug;
+		};
+		3BD2E4892C27093600E90552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U94SNGSSX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nerdified.UmamiJSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UmamiJS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UmamiJS";
+			};
+			name = Release;
+		};
+		3BD2E48B2C27093600E90552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U94SNGSSX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nerdified.UmamiJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UmamiJS;
+			};
+			name = Debug;
+		};
+		3BD2E48C2C27093600E90552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U94SNGSSX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nerdified.UmamiJSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UmamiJS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD2E45B2C27093500E90552 /* Build configuration list for PBXProject "UmamiJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD2E4822C27093600E90552 /* Debug */,
+				3BD2E4832C27093600E90552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD2E4842C27093600E90552 /* Build configuration list for PBXNativeTarget "UmamiJS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD2E4852C27093600E90552 /* Debug */,
+				3BD2E4862C27093600E90552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD2E4872C27093600E90552 /* Build configuration list for PBXNativeTarget "UmamiJSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD2E4882C27093600E90552 /* Debug */,
+				3BD2E4892C27093600E90552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD2E48A2C27093600E90552 /* Build configuration list for PBXNativeTarget "UmamiJSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD2E48B2C27093600E90552 /* Debug */,
+				3BD2E48C2C27093600E90552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD2E4582C27093500E90552 /* Project object */;
+}

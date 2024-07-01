@@ -21,8 +21,9 @@ struct WebsiteDetail: View {
     
     @State private var navPath = NavigationPath()
     
-    init(websiteId: String, filters: FiltersModel) {
+    init(websiteId: String) {
         print("INIT")
+        let filters = FiltersModel()
         self.websiteId = websiteId
         self.filtersModel = filters
         self.model = WebsiteDetailViewModel(websideId: websiteId)
@@ -114,7 +115,7 @@ struct WebsiteDetail_Previews: PreviewProvider {
     @ObservedObject static var filters = FiltersModel()
     static var previews: some View {
         NavigationStack {
-            WebsiteDetail(websiteId: "31de6a02-3b36-44c8-9d1c-ddbda7f8ea1e", filters: filters)
+            WebsiteDetail(websiteId: "31de6a02-3b36-44c8-9d1c-ddbda7f8ea1e")
         }
     }
 }

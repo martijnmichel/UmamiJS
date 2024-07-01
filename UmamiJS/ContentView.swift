@@ -28,7 +28,7 @@ struct ContentView: View {
                                         NavigationLink(value: website) {
                                             WebsiteCard(websiteId: website.id, filters: filters).navigationDestination(for: WebsiteDetailsModel.Website.self) {
                                                 
-                                                site in WebsiteDetail(websiteId: site.id, filters: filters)
+                                                site in WebsiteDetail(websiteId: site.id)
                                             }
                                         }
                                         

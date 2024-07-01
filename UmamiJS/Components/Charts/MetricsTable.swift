@@ -70,6 +70,6 @@ struct MetricRow: View {
 
 #Preview {
     NavigationStack {
-        WebsiteDetail(websiteId: "31de6a02-3b36-44c8-9d1c-ddbda7f8ea1e", filters: FiltersModel())
+        WebsiteDetail(websiteId: "31de6a02-3b36-44c8-9d1c-ddbda7f8ea1e")
     }
 }

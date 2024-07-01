@@ -1,0 +1,101 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@" : {
+
+    },
+    "%lld" : {
+
+    },
+    "%lld%%" : {
+
+    },
+    "Add website" : {
+
+    },
+    "clear" : {
+
+    },
+    "Dashboard" : {
+
+    },
+    "Date" : {
+
+    },
+    "dit is wat tekst" : {
+
+    },
+    "Domain" : {
+
+    },
+    "hoi" : {
+
+    },
+    "last 30 days" : {
+
+    },
+    "Login" : {
+
+    },
+    "Metrics" : {
+
+    },
+    "Name" : {
+
+    },
+    "Pageviews" : {
+
+    },
+    "Password" : {
+
+    },
+    "Referrers" : {
+
+    },
+    "screen.main.header %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welkom %@"
+          }
+        }
+      }
+    },
+    "Sessions" : {
+
+    },
+    "Settings" : {
+
+    },
+    "Submit" : {
+
+    },
+    "Test" : {
+
+    },
+    "Umami URL" : {
+
+    },
+    "Username" : {
+
+    },
+    "View %" : {
+
+    },
+    "Views" : {
+
+    },
+    "Welcome %@" : {
+
+    }
+  },
+  "version" : "1.0"
+}

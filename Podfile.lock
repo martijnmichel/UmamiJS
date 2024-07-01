@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.9.1)
+  - AwesomeEnum (2.2.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AwesomeEnum
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AwesomeEnum
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  AwesomeEnum: 9283d55c3d43eeb694168665609613df108662f8
+
+PODFILE CHECKSUM: 65e0ddd2f1d3acafddd3063fbcbb54c220c96968
+
+COCOAPODS: 1.15.2

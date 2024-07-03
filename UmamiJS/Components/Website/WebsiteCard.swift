@@ -70,10 +70,3 @@ struct WebsiteCard_Previews: PreviewProvider {
     }
 }
 
-
-extension Int {
-    func perc(b: Int) -> Int {
-        if (self == 0 && b == 0) { 0 }
-        else { Int((Double((self + 1) - (b + 1)) / Double(self + 1)) * Double(100)) }
-    }
-}

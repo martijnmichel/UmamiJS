@@ -17,11 +17,11 @@ class FiltersModel: ObservableObject {
     }
     
     init() {
-        self.filters = Filters(startAt: Calendar.current.date(byAdding: .month, value: -1, to: Date())!, endAt: Date())
+        self.filters = Filters(startAt: Calendar.current.date(byAdding: .day, value: -30, to: Date())!, endAt: Date())
     }
     
     func clear() {
-        self.filters = Filters(startAt: Calendar.current.date(byAdding: .month, value: -1, to: Date())!, endAt: Date())
+        self.filters = Filters(startAt: Calendar.current.date(byAdding: .day, value: -30, to: Date())!, endAt: Date())
     }
     func setFilters(models: [(PageviewsViewModel, StatsViewModel)]) {
         models.forEach { $0.filters = $1.filters }

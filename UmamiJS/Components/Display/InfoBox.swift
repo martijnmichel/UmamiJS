@@ -11,14 +11,16 @@ struct WebsiteStatBox: View {
     var label, value: String
     var perc: Int
     var icon: String?
+    var contrast: Bool? = false
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
            Text("\(value)").font(.title).contentTransition(.numericText())
             
+            
             HStack {
                 Text(LocalizedStringKey(label)).font(.footnote).foregroundColor(Color(UIColor.systemGray2))
-                Text("\(perc)%").font(.caption).fontWeight(.bold).foregroundColor(perc == 0 ? .orange : perc < 0 ? .red : .green).fixedSize().padding(4).background(perc == 0 ? .orange.opacity(0.3) : perc < 0 ? .red.opacity(0.3) : .green.opacity(0.3)).cornerRadius(4)
+                Text("\(perc)%").font(.caption).fontWeight(.bold).foregroundColor(perc == 0 ? .orange : perc < 0 || (perc > 0 && contrast == true) ? .red : .green).fixedSize().padding(4).background(perc == 0 ? .orange.opacity(0.3) : perc < 0 || (perc > 0 && contrast == true) ? .red.opacity(0.3) : .green.opacity(0.3)).cornerRadius(4)
             }
         }.frame(maxWidth: .infinity, alignment: .topLeading)
     }
@@ -26,7 +28,7 @@ struct WebsiteStatBox: View {
 
 #Preview {
     VStack {
-        WebsiteCard(websiteId: "31de6a02-3b36-44c8-9d1c-ddbda7f8ea1e", filters: FiltersModel()).padding()
+        WebsiteCard(websiteId: "0affd8a5-dc17-43e3-b031-399f37cc9a2a", filters: FiltersModel()).padding()
         
         ScrollView(.horizontal) {
             HStack {

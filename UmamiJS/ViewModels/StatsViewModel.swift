@@ -17,7 +17,19 @@ class StatsViewModel: ObservableObject {
     
     @Published var websiteId: String
     @Published var body: StatsModel.GetStatsBody = StatsModel.GetStatsBody(startAt: (Date().toMillis() - 86400000), endAt: Date().toMillis(), unit: .hour)
-    @Published var data: StatsModel.GetStatsResponse?
+    @Published var data: StatsModel.GetStatsResponse? = nil
+    
+    var bounceRatePerc: Int {
+        get {
+            if let data = self.data { return data.visits.value == 0 ? 0 : Int((min(Double(data.visits.value), Double(data.bounces.value)) / Double(data.visits.value)) * 100.0) } else { return 0 }
+        }
+    }
+    
+    var bounceRatePrevPerc: Int {
+        get {
+            if let data = self.data { return data.visits.prev == 0 ? 0 : Int((min(Double(data.visits.prev), Double(data.bounces.prev)) / Double(data.visits.prev)) * 100.0) } else { return 0 }
+        }
+    }
     
     
     let token = UmamiClient.getToken()

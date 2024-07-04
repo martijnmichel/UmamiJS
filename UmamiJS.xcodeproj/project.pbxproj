@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B65757E2C3674CD0054AA51 /* UmamiJSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4632C27093500E90552 /* UmamiJSApp.swift */; };
+		3B6575802C3674D80054AA51 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4902C270A1000E90552 /* LoginView.swift */; };
+		3B6575812C3674F00054AA51 /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E48E2C27097C00E90552 /* UserState.swift */; };
+		3B6575822C3674F60054AA51 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2E4942C27FCA100E90552 /* Localizable.xcstrings */; };
+		3B6575832C3674FA0054AA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2E4672C27093600E90552 /* Assets.xcassets */; };
+		3B6575842C3675030054AA51 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4992C28021500E90552 /* Client.swift */; };
+		3B6575852C3675120054AA51 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC3E2C2B15D300B52E2A /* Main.swift */; };
+		3B6575862C3675120054AA51 /* AddWebsiteForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC792C2D61C400B52E2A /* AddWebsiteForm.swift */; };
+		3B6575872C3675120054AA51 /* WebsiteStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC742C2C384800B52E2A /* WebsiteStats.swift */; };
+		3B6575882C3675120054AA51 /* PageviewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B891F0C2C28643A00334002 /* PageviewChart.swift */; };
+		3B6575892C3675120054AA51 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC3B2C2B138600B52E2A /* Input.swift */; };
+		3B65758A2C3675120054AA51 /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC432C2C238000B52E2A /* InfoBox.swift */; };
+		3B65758B2C3675120054AA51 /* MetricsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC7F2C2E978600B52E2A /* MetricsTable.swift */; };
+		3B65758C2C3675120054AA51 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B891F052C281E1A00334002 /* Card.swift */; };
+		3B65758D2C3675120054AA51 /* WebsiteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC412C2B18D800B52E2A /* WebsiteCard.swift */; };
+		3B6575902C36751C0054AA51 /* WebsitesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC362C2A981800B52E2A /* WebsitesViewModel.swift */; };
+		3B6575912C36751C0054AA51 /* FiltersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC8F2C2FE02200B52E2A /* FiltersModel.swift */; };
+		3B6575922C36751C0054AA51 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC8D2C2EE30500B52E2A /* StatsViewModel.swift */; };
+		3B6575932C36751C0054AA51 /* WebsiteMetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC812C2E98AA00B52E2A /* WebsiteMetricsModel.swift */; };
+		3B6575942C36751C0054AA51 /* PageviewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC872C2ED7A200B52E2A /* PageviewsViewModel.swift */; };
+		3B6575952C36751C0054AA51 /* WebsiteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC392C2AC09400B52E2A /* WebsiteDetailViewModel.swift */; };
+		3B6575962C3675200054AA51 /* WebsitesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC7D2C2E7CC600B52E2A /* WebsitesModel.swift */; };
+		3B6575972C3675200054AA51 /* PageviewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC852C2ED4FF00B52E2A /* PageviewsModel.swift */; };
+		3B6575982C3675200054AA51 /* MetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC832C2E991E00B52E2A /* MetricsModel.swift */; };
+		3B6575992C3675200054AA51 /* WebsiteDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC892C2EDF5100B52E2A /* WebsiteDetailsModel.swift */; };
+		3B65759A2C3675200054AA51 /* StatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC8B2C2EE23100B52E2A /* StatsModel.swift */; };
 		3B79CC372C2A981800B52E2A /* WebsitesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC362C2A981800B52E2A /* WebsitesViewModel.swift */; };
 		3B79CC3A2C2AC09400B52E2A /* WebsiteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC392C2AC09400B52E2A /* WebsiteDetailViewModel.swift */; };
 		3B79CC3C2C2B138600B52E2A /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC3B2C2B138600B52E2A /* Input.swift */; };
 		3B79CC3F2C2B15D300B52E2A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC3E2C2B15D300B52E2A /* Main.swift */; };
 		3B79CC422C2B18D800B52E2A /* WebsiteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC412C2B18D800B52E2A /* WebsiteCard.swift */; };
 		3B79CC442C2C238000B52E2A /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC432C2C238000B52E2A /* InfoBox.swift */; };
-		3B79CC4C2C2C310100B52E2A /* UmamiJS_MacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC4B2C2C310100B52E2A /* UmamiJS_MacOSApp.swift */; };
 		3B79CC4E2C2C310100B52E2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC4D2C2C310100B52E2A /* ContentView.swift */; };
 		3B79CC502C2C310300B52E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B79CC4F2C2C310300B52E2A /* Assets.xcassets */; };
 		3B79CC532C2C310300B52E2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B79CC522C2C310300B52E2A /* Preview Assets.xcassets */; };
@@ -95,7 +120,6 @@
 		3B79CC412C2B18D800B52E2A /* WebsiteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteCard.swift; sourceTree = "<group>"; };
 		3B79CC432C2C238000B52E2A /* InfoBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBox.swift; sourceTree = "<group>"; };
 		3B79CC492C2C310100B52E2A /* UmamiJS MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UmamiJS MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B79CC4B2C2C310100B52E2A /* UmamiJS_MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiJS_MacOSApp.swift; sourceTree = "<group>"; };
 		3B79CC4D2C2C310100B52E2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B79CC4F2C2C310300B52E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B79CC522C2C310300B52E2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -234,7 +258,6 @@
 		3B79CC4A2C2C310100B52E2A /* UmamiJS MacOS */ = {
 			isa = PBXGroup;
 			children = (
-				3B79CC4B2C2C310100B52E2A /* UmamiJS_MacOSApp.swift */,
 				3B79CC4D2C2C310100B52E2A /* ContentView.swift */,
 				3B79CC4F2C2C310300B52E2A /* Assets.xcassets */,
 				3B79CC542C2C310300B52E2A /* UmamiJS_MacOS.entitlements */,
@@ -625,6 +648,8 @@
 			files = (
 				3B79CC532C2C310300B52E2A /* Preview Assets.xcassets in Resources */,
 				3B79CC502C2C310300B52E2A /* Assets.xcassets in Resources */,
+				3B6575832C3674FA0054AA51 /* Assets.xcassets in Resources */,
+				3B6575822C3674F60054AA51 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,8 +818,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B6575812C3674F00054AA51 /* UserState.swift in Sources */,
+				3B6575842C3675030054AA51 /* Client.swift in Sources */,
+				3B6575802C3674D80054AA51 /* LoginView.swift in Sources */,
+				3B6575962C3675200054AA51 /* WebsitesModel.swift in Sources */,
+				3B6575972C3675200054AA51 /* PageviewsModel.swift in Sources */,
+				3B6575982C3675200054AA51 /* MetricsModel.swift in Sources */,
+				3B6575992C3675200054AA51 /* WebsiteDetailsModel.swift in Sources */,
+				3B65759A2C3675200054AA51 /* StatsModel.swift in Sources */,
 				3B79CC4E2C2C310100B52E2A /* ContentView.swift in Sources */,
-				3B79CC4C2C2C310100B52E2A /* UmamiJS_MacOSApp.swift in Sources */,
+				3B65757E2C3674CD0054AA51 /* UmamiJSApp.swift in Sources */,
+				3B6575852C3675120054AA51 /* Main.swift in Sources */,
+				3B6575862C3675120054AA51 /* AddWebsiteForm.swift in Sources */,
+				3B6575902C36751C0054AA51 /* WebsitesViewModel.swift in Sources */,
+				3B6575912C36751C0054AA51 /* FiltersModel.swift in Sources */,
+				3B6575922C36751C0054AA51 /* StatsViewModel.swift in Sources */,
+				3B6575932C36751C0054AA51 /* WebsiteMetricsModel.swift in Sources */,
+				3B6575942C36751C0054AA51 /* PageviewsViewModel.swift in Sources */,
+				3B6575952C36751C0054AA51 /* WebsiteDetailViewModel.swift in Sources */,
+				3B6575872C3675120054AA51 /* WebsiteStats.swift in Sources */,
+				3B6575882C3675120054AA51 /* PageviewChart.swift in Sources */,
+				3B6575892C3675120054AA51 /* Input.swift in Sources */,
+				3B65758A2C3675120054AA51 /* InfoBox.swift in Sources */,
+				3B65758B2C3675120054AA51 /* MetricsTable.swift in Sources */,
+				3B65758C2C3675120054AA51 /* Card.swift in Sources */,
+				3B65758D2C3675120054AA51 /* WebsiteCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

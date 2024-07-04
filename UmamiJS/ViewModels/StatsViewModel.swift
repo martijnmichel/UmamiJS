@@ -31,6 +31,18 @@ class StatsViewModel: ObservableObject {
         }
     }
     
+    var visitTime: Int {
+        get {
+            if let data = self.data { return data.visits.value == 0 ? 0 : Int(data.totaltime.value / data.visits.value) } else { return 1 }
+        }
+    }
+    
+    var visitTimePrev: Int {
+        get {
+            if let data = self.data { return data.visits.prev == 0 ? 0 : Int(data.totaltime.prev / data.visits.prev) } else { return 1 }
+        }
+    }
+    
     
     let token = UmamiClient.getToken()
     

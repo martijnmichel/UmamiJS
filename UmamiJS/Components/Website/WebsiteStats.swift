@@ -23,13 +23,17 @@ struct WebsiteStats: View {
             
             WebsiteStatBox(label: "Bounce rate", value: "\(model.bounceRatePerc)%", perc: model.bounceRatePerc.perc(b: model.bounceRatePrevPerc), icon:  "icon", contrast: true)
             
-            WebsiteStatBox(label: "Time", value: "\(Duration.seconds(stats.visits.value == 0 ? 0 : stats.totaltime.value / stats.visits.value).formatted(.units(width: .narrow)))", perc:0, icon:  "icon")
+            WebsiteStatBox(label: "Time", value: "\(Duration.seconds(model.visitTime).formatted(.units(width: .narrow)))", perc: model.visitTime.perc(b: model.visitTimePrev), icon:  "icon")
+            
         }
         
     }
 }
 #Preview {
-    WebsiteCard(websiteId: "45c95e53-e708-489a-bdef-56e9aca68099", filters: FiltersModel()).padding()
+    VStack {
+        WebsiteCard(websiteId: "45c95e53-e708-489a-bdef-56e9aca68099", filters: FiltersModel())
+        WebsiteCard(websiteId: "31de6a02-3b36-44c8-9d1c-ddbda7f8ea1e", filters: FiltersModel())
+    }.padding()
 }
 
 

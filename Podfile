@@ -21,3 +21,18 @@ target 'UmamiJS' do
   pod 'SwiftFormat/CLI'
 
 end
+
+
+
+target 'UmamiJS MacOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for UmamiJS
+
+
+  pod "Alamofire"
+  pod 'AwesomeEnum'
+  pod 'SwiftFormat/CLI'
+
+end

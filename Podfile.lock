@@ -1,20 +1,24 @@
 PODS:
   - Alamofire (5.9.1)
   - AwesomeEnum (2.2.1)
+  - SwiftFormat/CLI (0.54.0)
 
 DEPENDENCIES:
   - Alamofire
   - AwesomeEnum
+  - SwiftFormat/CLI
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AwesomeEnum
+    - SwiftFormat
 
 SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
   AwesomeEnum: 9283d55c3d43eeb694168665609613df108662f8
+  SwiftFormat: 0e0b577434e6aa63bc82a8905b40d9597b8452d4
 
-PODFILE CHECKSUM: 65e0ddd2f1d3acafddd3063fbcbb54c220c96968
+PODFILE CHECKSUM: 8511d4195fa58f95c095e68dbf492a6353358678
 
 COCOAPODS: 1.15.2

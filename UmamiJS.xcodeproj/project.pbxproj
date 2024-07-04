@@ -7,44 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B65757E2C3674CD0054AA51 /* UmamiJSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4632C27093500E90552 /* UmamiJSApp.swift */; };
-		3B6575802C3674D80054AA51 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4902C270A1000E90552 /* LoginView.swift */; };
-		3B6575812C3674F00054AA51 /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E48E2C27097C00E90552 /* UserState.swift */; };
-		3B6575822C3674F60054AA51 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2E4942C27FCA100E90552 /* Localizable.xcstrings */; };
-		3B6575832C3674FA0054AA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD2E4672C27093600E90552 /* Assets.xcassets */; };
-		3B6575842C3675030054AA51 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2E4992C28021500E90552 /* Client.swift */; };
-		3B6575852C3675120054AA51 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC3E2C2B15D300B52E2A /* Main.swift */; };
-		3B6575862C3675120054AA51 /* AddWebsiteForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC792C2D61C400B52E2A /* AddWebsiteForm.swift */; };
-		3B6575872C3675120054AA51 /* WebsiteStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC742C2C384800B52E2A /* WebsiteStats.swift */; };
-		3B6575882C3675120054AA51 /* PageviewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B891F0C2C28643A00334002 /* PageviewChart.swift */; };
-		3B6575892C3675120054AA51 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC3B2C2B138600B52E2A /* Input.swift */; };
-		3B65758A2C3675120054AA51 /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC432C2C238000B52E2A /* InfoBox.swift */; };
-		3B65758B2C3675120054AA51 /* MetricsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC7F2C2E978600B52E2A /* MetricsTable.swift */; };
-		3B65758C2C3675120054AA51 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B891F052C281E1A00334002 /* Card.swift */; };
-		3B65758D2C3675120054AA51 /* WebsiteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC412C2B18D800B52E2A /* WebsiteCard.swift */; };
-		3B6575902C36751C0054AA51 /* WebsitesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC362C2A981800B52E2A /* WebsitesViewModel.swift */; };
-		3B6575912C36751C0054AA51 /* FiltersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC8F2C2FE02200B52E2A /* FiltersModel.swift */; };
-		3B6575922C36751C0054AA51 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC8D2C2EE30500B52E2A /* StatsViewModel.swift */; };
-		3B6575932C36751C0054AA51 /* WebsiteMetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC812C2E98AA00B52E2A /* WebsiteMetricsModel.swift */; };
-		3B6575942C36751C0054AA51 /* PageviewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC872C2ED7A200B52E2A /* PageviewsViewModel.swift */; };
-		3B6575952C36751C0054AA51 /* WebsiteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC392C2AC09400B52E2A /* WebsiteDetailViewModel.swift */; };
-		3B6575962C3675200054AA51 /* WebsitesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC7D2C2E7CC600B52E2A /* WebsitesModel.swift */; };
-		3B6575972C3675200054AA51 /* PageviewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC852C2ED4FF00B52E2A /* PageviewsModel.swift */; };
-		3B6575982C3675200054AA51 /* MetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC832C2E991E00B52E2A /* MetricsModel.swift */; };
-		3B6575992C3675200054AA51 /* WebsiteDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC892C2EDF5100B52E2A /* WebsiteDetailsModel.swift */; };
-		3B65759A2C3675200054AA51 /* StatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC8B2C2EE23100B52E2A /* StatsModel.swift */; };
 		3B79CC372C2A981800B52E2A /* WebsitesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC362C2A981800B52E2A /* WebsitesViewModel.swift */; };
 		3B79CC3A2C2AC09400B52E2A /* WebsiteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC392C2AC09400B52E2A /* WebsiteDetailViewModel.swift */; };
 		3B79CC3C2C2B138600B52E2A /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC3B2C2B138600B52E2A /* Input.swift */; };
 		3B79CC3F2C2B15D300B52E2A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC3E2C2B15D300B52E2A /* Main.swift */; };
 		3B79CC422C2B18D800B52E2A /* WebsiteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC412C2B18D800B52E2A /* WebsiteCard.swift */; };
 		3B79CC442C2C238000B52E2A /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC432C2C238000B52E2A /* InfoBox.swift */; };
-		3B79CC4E2C2C310100B52E2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC4D2C2C310100B52E2A /* ContentView.swift */; };
-		3B79CC502C2C310300B52E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B79CC4F2C2C310300B52E2A /* Assets.xcassets */; };
-		3B79CC532C2C310300B52E2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B79CC522C2C310300B52E2A /* Preview Assets.xcassets */; };
-		3B79CC5E2C2C310300B52E2A /* UmamiJS_MacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC5D2C2C310300B52E2A /* UmamiJS_MacOSTests.swift */; };
-		3B79CC682C2C310300B52E2A /* UmamiJS_MacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC672C2C310300B52E2A /* UmamiJS_MacOSUITests.swift */; };
-		3B79CC6A2C2C310300B52E2A /* UmamiJS_MacOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC692C2C310300B52E2A /* UmamiJS_MacOSUITestsLaunchTests.swift */; };
 		3B79CC752C2C384800B52E2A /* WebsiteStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC742C2C384800B52E2A /* WebsiteStats.swift */; };
 		3B79CC772C2D57F200B52E2A /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC762C2D57F200B52E2A /* SettingsScreen.swift */; };
 		3B79CC7A2C2D61C400B52E2A /* AddWebsiteForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B79CC792C2D61C400B52E2A /* AddWebsiteForm.swift */; };
@@ -78,20 +46,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3B79CC5A2C2C310300B52E2A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BD2E4582C27093500E90552 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B79CC482C2C310100B52E2A;
-			remoteInfo = "UmamiJS MacOS";
-		};
-		3B79CC642C2C310300B52E2A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BD2E4582C27093500E90552 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B79CC482C2C310100B52E2A;
-			remoteInfo = "UmamiJS MacOS";
-		};
 		3BD2E4712C27093600E90552 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3BD2E4582C27093500E90552 /* Project object */;
@@ -119,14 +73,11 @@
 		3B79CC3E2C2B15D300B52E2A /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		3B79CC412C2B18D800B52E2A /* WebsiteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteCard.swift; sourceTree = "<group>"; };
 		3B79CC432C2C238000B52E2A /* InfoBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBox.swift; sourceTree = "<group>"; };
-		3B79CC492C2C310100B52E2A /* UmamiJS MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UmamiJS MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B79CC4D2C2C310100B52E2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B79CC4F2C2C310300B52E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B79CC522C2C310300B52E2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B79CC542C2C310300B52E2A /* UmamiJS_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UmamiJS_MacOS.entitlements; sourceTree = "<group>"; };
-		3B79CC592C2C310300B52E2A /* UmamiJS MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UmamiJS MacOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B79CC5D2C2C310300B52E2A /* UmamiJS_MacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiJS_MacOSTests.swift; sourceTree = "<group>"; };
-		3B79CC632C2C310300B52E2A /* UmamiJS MacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UmamiJS MacOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B79CC672C2C310300B52E2A /* UmamiJS_MacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiJS_MacOSUITests.swift; sourceTree = "<group>"; };
 		3B79CC692C2C310300B52E2A /* UmamiJS_MacOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamiJS_MacOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3B79CC742C2C384800B52E2A /* WebsiteStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteStats.swift; sourceTree = "<group>"; };
@@ -159,35 +110,17 @@
 		3BD2E4902C270A1000E90552 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3BD2E4942C27FCA100E90552 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		3BD2E4992C28021500E90552 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		B6BB8DE2D3523B3670E97C85 /* Pods-UmamiJS MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmamiJS MacOS.release.xcconfig"; path = "Target Support Files/Pods-UmamiJS MacOS/Pods-UmamiJS MacOS.release.xcconfig"; sourceTree = "<group>"; };
+		BC60C7216148F397B4482B3E /* Pods-UmamiJS MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmamiJS MacOS.debug.xcconfig"; path = "Target Support Files/Pods-UmamiJS MacOS/Pods-UmamiJS MacOS.debug.xcconfig"; sourceTree = "<group>"; };
 		BD1A0F7883F0A914E2E4DDA7 /* Pods-UmamiJS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmamiJS.release.xcconfig"; path = "Target Support Files/Pods-UmamiJS/Pods-UmamiJS.release.xcconfig"; sourceTree = "<group>"; };
 		BF77A0C511FD48D5C8D99E1B /* Pods-UmamiJS-UmamiJSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmamiJS-UmamiJSUITests.debug.xcconfig"; path = "Target Support Files/Pods-UmamiJS-UmamiJSUITests/Pods-UmamiJS-UmamiJSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFD0F48D68DDB5AEF74AACE6 /* Pods_UmamiJS_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UmamiJS_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BE58E4B4C8977F0B25A972 /* Pods-UmamiJSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmamiJSTests.debug.xcconfig"; path = "Target Support Files/Pods-UmamiJSTests/Pods-UmamiJSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB437FE68E0FE811B39B73B9 /* Pods-UmamiJS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmamiJS.debug.xcconfig"; path = "Target Support Files/Pods-UmamiJS/Pods-UmamiJS.debug.xcconfig"; sourceTree = "<group>"; };
 		FAFE2BD7DC63455381F6E28E /* Pods-UmamiJS-UmamiJSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UmamiJS-UmamiJSUITests.release.xcconfig"; path = "Target Support Files/Pods-UmamiJS-UmamiJSUITests/Pods-UmamiJS-UmamiJSUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B79CC462C2C310100B52E2A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B79CC562C2C310300B52E2A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B79CC602C2C310300B52E2A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3BD2E45D2C27093500E90552 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +154,7 @@
 				2C1236EF2B5C6B3CDCF2347A /* Pods_UmamiJS.framework */,
 				292A545AF35F0AE94EFB88D6 /* Pods_UmamiJS_UmamiJSUITests.framework */,
 				05DA0AE2BE0BC7CDF32DB07E /* Pods_UmamiJSTests.framework */,
+				BFD0F48D68DDB5AEF74AACE6 /* Pods_UmamiJS_MacOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -372,9 +306,6 @@
 				3BD2E4602C27093500E90552 /* UmamiJS.app */,
 				3BD2E4702C27093600E90552 /* UmamiJSTests.xctest */,
 				3BD2E47A2C27093600E90552 /* UmamiJSUITests.xctest */,
-				3B79CC492C2C310100B52E2A /* UmamiJS MacOS.app */,
-				3B79CC592C2C310300B52E2A /* UmamiJS MacOSTests.xctest */,
-				3B79CC632C2C310300B52E2A /* UmamiJS MacOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -464,6 +395,8 @@
 				FAFE2BD7DC63455381F6E28E /* Pods-UmamiJS-UmamiJSUITests.release.xcconfig */,
 				C9BE58E4B4C8977F0B25A972 /* Pods-UmamiJSTests.debug.xcconfig */,
 				16F7BD68290110494AA27447 /* Pods-UmamiJSTests.release.xcconfig */,
+				BC60C7216148F397B4482B3E /* Pods-UmamiJS MacOS.debug.xcconfig */,
+				B6BB8DE2D3523B3670E97C85 /* Pods-UmamiJS MacOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -471,59 +404,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B79CC482C2C310100B52E2A /* UmamiJS MacOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B79CC6B2C2C310300B52E2A /* Build configuration list for PBXNativeTarget "UmamiJS MacOS" */;
-			buildPhases = (
-				3B79CC452C2C310100B52E2A /* Sources */,
-				3B79CC462C2C310100B52E2A /* Frameworks */,
-				3B79CC472C2C310100B52E2A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "UmamiJS MacOS";
-			productName = "UmamiJS MacOS";
-			productReference = 3B79CC492C2C310100B52E2A /* UmamiJS MacOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		3B79CC582C2C310300B52E2A /* UmamiJS MacOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B79CC6E2C2C310300B52E2A /* Build configuration list for PBXNativeTarget "UmamiJS MacOSTests" */;
-			buildPhases = (
-				3B79CC552C2C310300B52E2A /* Sources */,
-				3B79CC562C2C310300B52E2A /* Frameworks */,
-				3B79CC572C2C310300B52E2A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B79CC5B2C2C310300B52E2A /* PBXTargetDependency */,
-			);
-			name = "UmamiJS MacOSTests";
-			productName = "UmamiJS MacOSTests";
-			productReference = 3B79CC592C2C310300B52E2A /* UmamiJS MacOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3B79CC622C2C310300B52E2A /* UmamiJS MacOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B79CC712C2C310300B52E2A /* Build configuration list for PBXNativeTarget "UmamiJS MacOSUITests" */;
-			buildPhases = (
-				3B79CC5F2C2C310300B52E2A /* Sources */,
-				3B79CC602C2C310300B52E2A /* Frameworks */,
-				3B79CC612C2C310300B52E2A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B79CC652C2C310300B52E2A /* PBXTargetDependency */,
-			);
-			name = "UmamiJS MacOSUITests";
-			productName = "UmamiJS MacOSUITests";
-			productReference = 3B79CC632C2C310300B52E2A /* UmamiJS MacOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		3BD2E45F2C27093500E90552 /* UmamiJS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BD2E4842C27093600E90552 /* Build configuration list for PBXNativeTarget "UmamiJS" */;
@@ -593,17 +473,6 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					3B79CC482C2C310100B52E2A = {
-						CreatedOnToolsVersion = 15.3;
-					};
-					3B79CC582C2C310300B52E2A = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 3B79CC482C2C310100B52E2A;
-					};
-					3B79CC622C2C310300B52E2A = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 3B79CC482C2C310100B52E2A;
-					};
 					3BD2E45F2C27093500E90552 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -634,39 +503,11 @@
 				3BD2E45F2C27093500E90552 /* UmamiJS */,
 				3BD2E46F2C27093600E90552 /* UmamiJSTests */,
 				3BD2E4792C27093600E90552 /* UmamiJSUITests */,
-				3B79CC482C2C310100B52E2A /* UmamiJS MacOS */,
-				3B79CC582C2C310300B52E2A /* UmamiJS MacOSTests */,
-				3B79CC622C2C310300B52E2A /* UmamiJS MacOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B79CC472C2C310100B52E2A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B79CC532C2C310300B52E2A /* Preview Assets.xcassets in Resources */,
-				3B79CC502C2C310300B52E2A /* Assets.xcassets in Resources */,
-				3B6575832C3674FA0054AA51 /* Assets.xcassets in Resources */,
-				3B6575822C3674F60054AA51 /* Localizable.xcstrings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B79CC572C2C310300B52E2A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B79CC612C2C310300B52E2A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3BD2E45E2C27093500E90552 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -814,55 +655,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B79CC452C2C310100B52E2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B6575812C3674F00054AA51 /* UserState.swift in Sources */,
-				3B6575842C3675030054AA51 /* Client.swift in Sources */,
-				3B6575802C3674D80054AA51 /* LoginView.swift in Sources */,
-				3B6575962C3675200054AA51 /* WebsitesModel.swift in Sources */,
-				3B6575972C3675200054AA51 /* PageviewsModel.swift in Sources */,
-				3B6575982C3675200054AA51 /* MetricsModel.swift in Sources */,
-				3B6575992C3675200054AA51 /* WebsiteDetailsModel.swift in Sources */,
-				3B65759A2C3675200054AA51 /* StatsModel.swift in Sources */,
-				3B79CC4E2C2C310100B52E2A /* ContentView.swift in Sources */,
-				3B65757E2C3674CD0054AA51 /* UmamiJSApp.swift in Sources */,
-				3B6575852C3675120054AA51 /* Main.swift in Sources */,
-				3B6575862C3675120054AA51 /* AddWebsiteForm.swift in Sources */,
-				3B6575902C36751C0054AA51 /* WebsitesViewModel.swift in Sources */,
-				3B6575912C36751C0054AA51 /* FiltersModel.swift in Sources */,
-				3B6575922C36751C0054AA51 /* StatsViewModel.swift in Sources */,
-				3B6575932C36751C0054AA51 /* WebsiteMetricsModel.swift in Sources */,
-				3B6575942C36751C0054AA51 /* PageviewsViewModel.swift in Sources */,
-				3B6575952C36751C0054AA51 /* WebsiteDetailViewModel.swift in Sources */,
-				3B6575872C3675120054AA51 /* WebsiteStats.swift in Sources */,
-				3B6575882C3675120054AA51 /* PageviewChart.swift in Sources */,
-				3B6575892C3675120054AA51 /* Input.swift in Sources */,
-				3B65758A2C3675120054AA51 /* InfoBox.swift in Sources */,
-				3B65758B2C3675120054AA51 /* MetricsTable.swift in Sources */,
-				3B65758C2C3675120054AA51 /* Card.swift in Sources */,
-				3B65758D2C3675120054AA51 /* WebsiteCard.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B79CC552C2C310300B52E2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B79CC5E2C2C310300B52E2A /* UmamiJS_MacOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B79CC5F2C2C310300B52E2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B79CC682C2C310300B52E2A /* UmamiJS_MacOSUITests.swift in Sources */,
-				3B79CC6A2C2C310300B52E2A /* UmamiJS_MacOSUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3BD2E45C2C27093500E90552 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -917,16 +709,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B79CC5B2C2C310300B52E2A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3B79CC482C2C310100B52E2A /* UmamiJS MacOS */;
-			targetProxy = 3B79CC5A2C2C310300B52E2A /* PBXContainerItemProxy */;
-		};
-		3B79CC652C2C310300B52E2A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3B79CC482C2C310100B52E2A /* UmamiJS MacOS */;
-			targetProxy = 3B79CC642C2C310300B52E2A /* PBXContainerItemProxy */;
-		};
 		3BD2E4722C27093600E90552 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3BD2E45F2C27093500E90552 /* UmamiJS */;
@@ -940,148 +722,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B79CC6C2C2C310300B52E2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "UmamiJS MacOS/UmamiJS_MacOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UmamiJS MacOS/Preview Content\"";
-				DEVELOPMENT_TEAM = U94SNGSSX7;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nerdified.UmamiJS-MacOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		3B79CC6D2C2C310300B52E2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "UmamiJS MacOS/UmamiJS_MacOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UmamiJS MacOS/Preview Content\"";
-				DEVELOPMENT_TEAM = U94SNGSSX7;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nerdified.UmamiJS-MacOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		3B79CC6F2C2C310300B52E2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U94SNGSSX7;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nerdified.UmamiJS-MacOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UmamiJS MacOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UmamiJS MacOS";
-			};
-			name = Debug;
-		};
-		3B79CC702C2C310300B52E2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U94SNGSSX7;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nerdified.UmamiJS-MacOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UmamiJS MacOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UmamiJS MacOS";
-			};
-			name = Release;
-		};
-		3B79CC722C2C310300B52E2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U94SNGSSX7;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nerdified.UmamiJS-MacOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "UmamiJS MacOS";
-			};
-			name = Debug;
-		};
-		3B79CC732C2C310300B52E2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U94SNGSSX7;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Nerdified.UmamiJS-MacOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "UmamiJS MacOS";
-			};
-			name = Release;
-		};
 		3BD2E4822C27093600E90552 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1346,33 +986,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B79CC6B2C2C310300B52E2A /* Build configuration list for PBXNativeTarget "UmamiJS MacOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B79CC6C2C2C310300B52E2A /* Debug */,
-				3B79CC6D2C2C310300B52E2A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B79CC6E2C2C310300B52E2A /* Build configuration list for PBXNativeTarget "UmamiJS MacOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B79CC6F2C2C310300B52E2A /* Debug */,
-				3B79CC702C2C310300B52E2A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B79CC712C2C310300B52E2A /* Build configuration list for PBXNativeTarget "UmamiJS MacOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B79CC722C2C310300B52E2A /* Debug */,
-				3B79CC732C2C310300B52E2A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3BD2E45B2C27093500E90552 /* Build configuration list for PBXProject "UmamiJS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

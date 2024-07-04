@@ -1,4 +1,4 @@
-# Umami Web Analytics for iOS
+# Umami Web Analytics app for iOS
 
 Umami website analytics provides the data you need to make decisions in real-time.
 
